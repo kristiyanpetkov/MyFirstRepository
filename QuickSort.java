@@ -6,7 +6,7 @@ package com.clouway.intro.task1;
 public class QuickSort {
 
     /**
-     * 
+     * Declare an array and set values for the lower index and the higher index.
      *
      * @param array
      */
