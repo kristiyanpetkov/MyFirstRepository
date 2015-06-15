@@ -1,8 +1,5 @@
 package com.clouway.intro.task1;
 
-/**
- * Created by clouway on 15-5-5.
- */
 
 
 import java.util.Arrays;
@@ -11,12 +8,10 @@ public class Demo {
     public static void main(String[] args) {
 
 
-        //Calculate Greatest common divisor & Least common multiply
         Euclid result = new Euclid();
         System.out.println("Greatest common divisor: " + result.gcd(9, 3));
         System.out.println("Least common multiple: " + result.lcm(24, 64));
 
-        //Get minimal element of the array, calculate the sum of the array, print all the elements of the array
         Array test = new Array();
 
         System.out.println("Min Element is: " + test.getMinimalElement(new int[]{20, -3, 6, 7, 8, -15, 2, 6}));
